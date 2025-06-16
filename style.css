@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(36, 58%, 41%);
+    font-family:Helvetica, sans-serif;
+}
+
+.container {
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 50px;
+    border-radius: 25px;
+}
+
+.title{
+    background-color: hsl(30, 50%, 41%);
+    color: hsl(3, 0%, 100%);
+    width: 100%;
+    padding: 32px;
+    margin: 25px auto;
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+}
+
+
+.ingredients, .method{
+    background-color: hsla(30, 50%, 41%, 0.6);
+    color: hsl(3, 0%, 100%);
+    font-weight: 300;
+    margin-top: 30px;
+    padding: 32px;
+    width: 100%;
+}
+
+h1{
+    font-size: 35px;
+}
